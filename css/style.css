@@ -7,6 +7,7 @@ nav {
     justify-content: space-between;
     padding: 5px 200px;
     align-items: center;
+    box-shadow: 10px 10px 10px gray;
 }
 
 .nav-button {
@@ -42,7 +43,69 @@ nav li {
     margin-left: 50px;
 }
 
+/* about section */
+.about {
+    margin-top: 3%;
+}
+
+.about>div {
+    background-color: #CFE0F3;
+    display: flex;
+
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+}
+
+.about-img {
+    padding-right: 250px;
+}
+
+.about-img>img {
+    border-radius: 100px;
+}
+
+.about-text {
+    padding-left: 250px;
+}
+
+.about-title {
+    text-align: left;
+    font-weight: 500;
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-top: 200px;
+}
+
+.about-discription {
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.about-button {
+    margin-top: 60px;
+}
+
+.about-button>button {
+    background-color: #FD6E0A;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
 /* infu section */
+.infu-title {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 150px;
+}
+
 .infu {
     display: flex;
     justify-content: center;
@@ -59,7 +122,7 @@ nav li {
 }
 
 
-.infu-title {
+.infu-box-title {
     text-align: center;
     font-weight: 700;
     font-size: 40px;
