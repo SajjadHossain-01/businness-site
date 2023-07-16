@@ -35,16 +35,38 @@ nav {
     max-height: 50%;
 }
 
-nav ul {
+nav>ul {
     display: flex;
     align-items: center;
     font-weight: 400;
     font-size: 35px;
+    gap: 25px;
+    ;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+.service-list {
+    display: none;
+    position: absolute;
+    background-color: lightslategray;
+    border-radius: 5px;
 }
 
 nav li {
     list-style: none;
-    margin-left: 50px;
+    text-decoration: none;
+}
+
+nav li>a:hover {
+    color: blue;
+}
+
+nav li>a {
+    text-decoration: none;
+    color: black;
 }
 
 /* about section */
